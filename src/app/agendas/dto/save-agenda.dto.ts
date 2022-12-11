@@ -1,5 +1,5 @@
 export class SaveAgendaDTO {
-  created_by: string;
+  created_by?: string;
 
   session_id: string;
 

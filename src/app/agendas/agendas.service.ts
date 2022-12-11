@@ -63,7 +63,7 @@ export class AgendasService {
 
     const data_save_agenda: ISaveAgendaSession = {
       session_id: session.sessionId,
-      created_by: data.created_by,
+      created_by: 'Teste',
       api_key: session.ot.apiKey,
     };
 
